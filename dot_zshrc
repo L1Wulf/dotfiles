@@ -1,4 +1,5 @@
 #export EDITOR="code"
+export GITHUB_USERNAME="L1Wulf"
 eval "$(pyenv init -)"
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
