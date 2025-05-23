@@ -1,5 +1,5 @@
 [user]
-	email = phillip.marquez@dish.com
+	email = l1wulf@gmail.com
 	name = Phillip Marquez
 	signingKey = 
 [gpg]
@@ -10,7 +10,7 @@
 [tag]
 	forceSignAnnotated = false
 [gpg "ssh"]
-	program = ssh-keygen
+	program = 
 	allowedSignersFile = 
 [diff]
 	tool = deltawalker
