@@ -1,0 +1,26 @@
+[user]
+	email = phillip.marquez@dish.com
+	name = Phillip Marquez
+	signingKey = 
+[gpg]
+	format = openpgp
+	program = gpg
+[commit]
+	gpgSign = false
+[tag]
+	forceSignAnnotated = false
+[gpg "ssh"]
+	program = ssh-keygen
+	allowedSignersFile = 
+[diff]
+	tool = deltawalker
+[difftool]
+	prompt = false
+[difftool  "deltawalker"]
+	cmd = '/Applications/DeltaWalker.app/Contents/Eclipse/Contents/Resources/git-diff' "$LOCAL" "$REMOTE"
+[merge]
+	tool = deltawalker
+[mergetool]
+	keepBackup = false
+[mergetool  "deltawalker"]
+	cmd = '/Applications/DeltaWalker.app/Contents/Eclipse/Contents/Resources/git-merge' "$LOCAL" "$REMOTE" "$BASE" "$MERGED"
